@@ -1,0 +1,90 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapsBalloon", "XFC\MapsBalloon.csproj", "{762343B9-CE0C-431B-9B90-4DE70D761A20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		DebugServer|Any CPU = DebugServer|Any CPU
+		DebugServer|x64 = DebugServer|x64
+		DebugServer|x86 = DebugServer|x86
+		Master|Any CPU = Master|Any CPU
+		Master|x64 = Master|x64
+		Master|x86 = Master|x86
+		MasterServer|Any CPU = MasterServer|Any CPU
+		MasterServer|x64 = MasterServer|x64
+		MasterServer|x86 = MasterServer|x86
+		MasterServerWithLTCG|Any CPU = MasterServerWithLTCG|Any CPU
+		MasterServerWithLTCG|x64 = MasterServerWithLTCG|x64
+		MasterServerWithLTCG|x86 = MasterServerWithLTCG|x86
+		MasterWithLTCG|Any CPU = MasterWithLTCG|Any CPU
+		MasterWithLTCG|x64 = MasterWithLTCG|x64
+		MasterWithLTCG|x86 = MasterWithLTCG|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		ReleaseServer|Any CPU = ReleaseServer|Any CPU
+		ReleaseServer|x64 = ReleaseServer|x64
+		ReleaseServer|x86 = ReleaseServer|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.Debug|x64.Build.0 = Debug|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.Debug|x86.Build.0 = Debug|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.DebugServer|Any CPU.ActiveCfg = Debug|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.DebugServer|Any CPU.Build.0 = Debug|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.DebugServer|x64.ActiveCfg = Debug|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.DebugServer|x64.Build.0 = Debug|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.DebugServer|x86.ActiveCfg = Debug|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.DebugServer|x86.Build.0 = Debug|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.Master|Any CPU.ActiveCfg = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.Master|Any CPU.Build.0 = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.Master|x64.ActiveCfg = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.Master|x64.Build.0 = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.Master|x86.ActiveCfg = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.Master|x86.Build.0 = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.MasterServer|Any CPU.ActiveCfg = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.MasterServer|Any CPU.Build.0 = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.MasterServer|x64.ActiveCfg = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.MasterServer|x64.Build.0 = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.MasterServer|x86.ActiveCfg = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.MasterServer|x86.Build.0 = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.MasterServerWithLTCG|Any CPU.ActiveCfg = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.MasterServerWithLTCG|Any CPU.Build.0 = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.MasterServerWithLTCG|x64.ActiveCfg = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.MasterServerWithLTCG|x64.Build.0 = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.MasterServerWithLTCG|x86.ActiveCfg = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.MasterServerWithLTCG|x86.Build.0 = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.MasterWithLTCG|Any CPU.ActiveCfg = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.MasterWithLTCG|Any CPU.Build.0 = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.MasterWithLTCG|x64.ActiveCfg = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.MasterWithLTCG|x64.Build.0 = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.MasterWithLTCG|x86.ActiveCfg = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.MasterWithLTCG|x86.Build.0 = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.Release|x64.ActiveCfg = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.Release|x64.Build.0 = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.Release|x86.ActiveCfg = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.Release|x86.Build.0 = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.ReleaseServer|Any CPU.ActiveCfg = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.ReleaseServer|Any CPU.Build.0 = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.ReleaseServer|x64.ActiveCfg = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.ReleaseServer|x64.Build.0 = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.ReleaseServer|x86.ActiveCfg = Release|Any CPU
+		{762343B9-CE0C-431B-9B90-4DE70D761A20}.ReleaseServer|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60CDEE98-9760-4B36-8F4E-D0A2BFCEB4F7}
+	EndGlobalSection
+EndGlobal

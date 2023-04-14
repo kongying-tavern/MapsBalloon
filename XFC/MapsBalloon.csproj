@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net462</TargetFramework>
+		<UseWPF>true</UseWPF>
+		<OutputType>WinExe</OutputType>
+		<PlatformTarget>AnyCPU</PlatformTarget>
+		<LangVersion>preview</LangVersion>
+		<Nullable>disable</Nullable>
+		<AssemblyName>「空荧酒馆」原神地图悬浮窗</AssemblyName>
+		<ApplicationIcon>Assets\Map.ico</ApplicationIcon>
+		<ApplicationManifest>./Properties/app.manifest</ApplicationManifest>
+		<IsPublishable>False</IsPublishable>
+	</PropertyGroup>
+	<ItemGroup>
+	  <None Remove="Assets\GenshinImpactCur.cur" />
+	  <None Remove="Assets\paimon_on.png" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Resource Include="Assets\Map.ico" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="HandyControl" Version="3.4.0" />
+	  <PackageReference Include="NHotkey.Wpf" Version="2.1.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Include="System.Windows.Forms" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Resource Include="Assets\GenshinImpactCur.cur" />
+	  <Resource Include="Assets\paimon_on.png" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Compile Update="Properties\Settings.Designer.cs">
+	    <DesignTimeSharedInput>True</DesignTimeSharedInput>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>Settings.settings</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+	<ItemGroup>
+	  <None Update="Properties\Settings.settings">
+	    <Generator>SettingsSingleFileGenerator</Generator>
+	    <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+	  </None>
+	</ItemGroup>
+</Project>
