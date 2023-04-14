@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapsBalloon", "XFC\MapsBalloon.csproj", "{762343B9-CE0C-431B-9B90-4DE70D761A20}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapsBalloon", "MapsBalloon\MapsBalloon.csproj", "{762343B9-CE0C-431B-9B90-4DE70D761A20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
