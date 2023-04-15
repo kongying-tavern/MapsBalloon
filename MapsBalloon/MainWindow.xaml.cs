@@ -43,7 +43,7 @@ namespace PopTips
             OpenClose = openClose;
             x_offset = GetSystemMetrics(SM_CXDLGFRAME);
             y_offset = GetSystemMetrics(SM_CYDLGFRAME) + GetSystemMetrics(SM_CYCAPTION);
-            StreamResourceInfo sri = Application.GetResourceStream(new Uri("GenshinImpactCur.cur", UriKind.Relative));
+            StreamResourceInfo sri = Application.GetResourceStream(new Uri("/Assets/GenshinImpactCur.cur", UriKind.Relative));
             Cursor customCursor = new Cursor(sri.Stream);
             this.Cursor = customCursor;
             //Visibility = Visibility.Hidden;
