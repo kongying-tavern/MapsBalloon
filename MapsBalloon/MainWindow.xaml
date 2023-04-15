@@ -9,7 +9,6 @@
     Title="「空荧酒馆」原神地图悬浮窗"
     Width="75"
     Height="72"
-    Background="Transparent"
     Closing="Window_Closing"
     Icon="/Assets/paimon_on.png"
     MouseDoubleClick="Window_MouseDoubleClick"
